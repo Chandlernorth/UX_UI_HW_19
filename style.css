@@ -3,6 +3,7 @@
 li {
     font-family: 'Alumni Sans';
     font-size: 24px;
+    color: #0D22D8;
 }
 p {
     font-family: 'Bree Serif';
@@ -44,9 +45,10 @@ ul {
     max-height: 150px;
 }
 .name {
-    padding-top: 3%;
+    padding-top: 2%;
     font-family: 'Alumni Sans';
     font-size: 24px;
+    margin-left: -50px;
 }
 .links {
     margin-top: -80px;
@@ -142,6 +144,16 @@ footer li {
 }
 .inline-block-footer {
     padding: 2%;
+}
+
+li:hover {
+    background-color: #82C7A5;
+    color: #FD6500;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 
